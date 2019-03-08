@@ -1,7 +1,5 @@
 package br.leg.camara.wstecad.controller;
 
-import java.util.List;
-import java.util.Map;
 import java.util.Objects;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.leg.camara.wstecad.dao.TermoDao;
-import br.leg.camara.wstecad.model.Termo;
 
 @RestController
 @RequestMapping("wstecad")

@@ -1,8 +1,5 @@
 package br.leg.camara.wstecad.dao;
 
-import java.util.Map;
-import java.util.List;
-
 public interface TermoDao {
 
 	Object getTermos();
